@@ -1,11 +1,9 @@
 
-<h1 align="center">SELCOM API CLIENT </h1>
+# SELCOM API CLIENT 
 
-<p align='center'>
 
-<img src="https://img.shields.io/node/v/e">
 
-</p >
+![alt text](https://img.shields.io/node/v/e")
 
 ## Homepage
 https://developers.selcommobile.com/
@@ -60,7 +58,7 @@ const baseUrl = "http://example.com"
 const client = new apiAccess(baseUrl, apiKey, apiSecret);
 
 //order data
-var orderArray = {
+var orderJson = {
 "vendor":"VENDORTILL",
 "order_id":"1218d5Qb",
 "buyer_email": "john@example.com",
@@ -77,7 +75,7 @@ var orderArray = {
 var orderPath = "/v1/checkout/create-order-minimal"
 //crate new order
 
-var = orderRespose = client.postFunc(orderPath, orderArray)
+var = orderRespose = client.postFunc(orderPath, orderJson)
 
 //get response data from promise
 orderResponse.then((response)=> {console.log(response)}).catch((response)=> {console.log(response)})
