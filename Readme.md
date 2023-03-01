@@ -1,5 +1,5 @@
 
-# SELCOM API CLIENT 
+# Selcom API Gateway Client - NODEJS
 
 <p align='center'>
 
