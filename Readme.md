@@ -57,7 +57,7 @@ const apiSecret = '81dc9bdb52d04dc20036dbd8313ed055';
 const baseUrl = "http://example.com"
 
 // initalize a new apiAccess instace with values of the base url, api key and api secret
-const client = new apiAccess(baseUrl, apiKey, apiSecret);
+const client = new apigwClient(baseUrl, apiKey, apiSecret);
 
 //order data
 var orderJson = {
